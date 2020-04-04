@@ -95,4 +95,47 @@ const todos = [
 // console.log(todos[2].text);
 
 const todoJSON = JSON.stringify(todos);
-console.log(todoJSON);
+// console.log(todoJSON);
+
+// // for 
+
+// for(let i = 0; i<=10; i++){
+//   console.log(`For Loop Number: ${i}`);
+// }
+
+// // While
+// let i = 0;
+// while(i<=10){
+//   console.log(`While Loop Number: ${i}`);
+//   i++;
+// }
+
+// for(let i = 0; i<todos.length; i++){
+//   console.log(todos[i].text);
+// }
+
+// for(let todo of todos){
+//   console.log(todo.text);
+// }
+
+// // forEach, map, filter
+// console.log('foreach');
+// todos.forEach(function(s) {
+//   console.log(s.text);
+// });
+
+// // map 
+// console.log('map');
+// const todoText = todos.map(function(todo){
+//   return todo.text;
+// });
+// console.log(todoText);
+
+ // filter
+console.log('filter');
+const todoCompleted = todos.filter(function(todo){
+  return todo.id === 1;
+}).map(function(todo){
+  return todo.isCompleted;
+});
+console.log(todoCompleted);
