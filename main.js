@@ -170,18 +170,40 @@
 
 // console.log(color);
 
-const x = 5;
+// const x = 5;
 
-const color = x > 10 ? 'red' : 'blue';
+// const color = x > 10 ? 'red' : 'blue';
 
-switch(color){
-  case 'red':
-    console.log('color is red');
-    break;
-  case  'blue':
-    console.log('color is blue');
-    break;
-  default: 
-    console.log('color is NOT red or blue');
-    break;
+// switch(color){
+//   case 'red':
+//     console.log('color is red');
+//     break;
+//   case  'blue':
+//     console.log('color is blue');
+//     break;
+//   default: 
+//     console.log('color is NOT red or blue');
+//     break;
+// }
+
+// functions
+
+// function addNums(num1 = 1, num2 = 1) {
+//   return num1 + num2;
+// }
+
+// console.log(addNums(5,7));
+
+// Constructor function
+function Person(firstName, lastName, dob){
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = dob;
 }
+
+// Instantiate object
+const person1 = new Person('John', 'Doe', '4-3-1980');
+const person2 = new Person('Mary', 'Smith', '3-6-1970');
+
+console.log(person1);
+console.log(person2);
