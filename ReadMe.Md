@@ -66,3 +66,6 @@ JSON Crash Course - https://www.youtube.com/watch?v=wI1CW...
     Framework crash courses
 
 
+  https://developer.mozilla.org/en-US/docs/Web/API/console
+
+  
