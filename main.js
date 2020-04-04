@@ -74,36 +74,36 @@
 
 // Arrays of objects
 
-const todos = [
-  {
-    id: 1,
-    text:'Take out trash',
-    isCompleted: true
-  },
-  {
-    id: 2,
-    text:'Meeting with boss',
-    isCompleted: true
-  },
-  {
-    id: 3,
-    text:'Dentist appointment',
-    isCompleted: false
-  }
-];
+// const todos = [
+//   {
+//     id: 1,
+//     text:'Take out trash',
+//     isCompleted: true
+//   },
+//   {
+//     id: 2,
+//     text:'Meeting with boss',
+//     isCompleted: true
+//   },
+//   {
+//     id: 3,
+//     text:'Dentist appointment',
+//     isCompleted: false
+//   }
+// ];
 
 // console.log(todos[2].text);
 
-const todoJSON = JSON.stringify(todos);
+// const todoJSON = JSON.stringify(todos);
 // console.log(todoJSON);
 
-// // for 
+// for 
 
 // for(let i = 0; i<=10; i++){
 //   console.log(`For Loop Number: ${i}`);
 // }
 
-// // While
+// While
 // let i = 0;
 // while(i<=10){
 //   console.log(`While Loop Number: ${i}`);
@@ -118,13 +118,13 @@ const todoJSON = JSON.stringify(todos);
 //   console.log(todo.text);
 // }
 
-// // forEach, map, filter
+// forEach, map, filter
 // console.log('foreach');
 // todos.forEach(function(s) {
 //   console.log(s.text);
 // });
 
-// // map 
+// map 
 // console.log('map');
 // const todoText = todos.map(function(todo){
 //   return todo.text;
@@ -132,10 +132,40 @@ const todoJSON = JSON.stringify(todos);
 // console.log(todoText);
 
  // filter
-console.log('filter');
-const todoCompleted = todos.filter(function(todo){
-  return todo.id === 1;
-}).map(function(todo){
-  return todo.isCompleted;
-});
-console.log(todoCompleted);
+// console.log('filter');
+// const todoCompleted = todos.filter(function(todo){
+//   return todo.id === 1;
+// }).map(function(todo){
+//   return todo.isCompleted;
+// });
+// console.log(todoCompleted);
+
+
+// Conditionals  
+
+// const x = 4;
+// const y = 10;
+
+// if (x === 10){
+//   console.log('x is 10');
+// }else if (x>10){
+//   console.log('x is greater than 10')
+// }else{
+//   console.log('x is less than 10');
+// }
+
+// Or
+// if(x > 5 || y > 10){
+//   console.log('x is more than 5 or y is more than 10')
+// }
+
+// And
+// if (x > 5 && y > 10) {
+//   console.log('x is more than 5 and y is more than 10')
+// }
+
+// const x = 11;
+
+// const color = x > 10 ? 'red' : 'blue';
+
+// console.log(color);
